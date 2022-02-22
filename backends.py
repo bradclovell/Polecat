@@ -1,0 +1,5 @@
+import config
+import backend_utilities
+
+strong_evaluator = backend_utilities.NeuralNetworkEvaluator(config.PATH_TO_STRONG_WEIGHTS_FILE)
+player_model_evaluator = backend_utilities.NeuralNetworkEvaluator(config.PATH_TO_PLAYER_MODEL_WEIGHTS_FILE)

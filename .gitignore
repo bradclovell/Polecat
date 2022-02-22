@@ -1,0 +1,8 @@
+# OpenCL file
+leelaz_opencl_tuning
+# tests file
+tests.py
+# pycache files
+*__pycache__*
+# PyCharm IDE files
+*.idea
