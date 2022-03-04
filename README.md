@@ -4,6 +4,8 @@ Polecat is a chess engine that specializes in defeating human opponents by predi
 
 ## Effectiveness
 
+Qualitatively, Polecat is very fun to play against. Its games are exciting and feature lots of risky play, daring sacrifices, and positional gambits.
+
 After running an experiment in which I had Polecat and Stockfish (a top chess engine) play 1,000 games each against a model of a human player with a skill rating of 1700 on [Lichess](https://lichess.org/), I found that Stockfish checkmates the opponent in 53.548 half-moves on average, and that Polecat, in its current form, checkmates its opponent in an average of only 51.604 half-moves. **This demonstrates that Polecat succeeds at playing better than Stockfish when facing a human.**
 
 This experiment can be replicated by installing the project and running trial.py.
