@@ -1,6 +1,6 @@
 # Polecat ?! : A Chess Engine for Playing against Humans
 
-Polecat is a chess engine that specializes in defeating human opponents by predicting their behavior and attempting to provoke mistakes and gain rapid advantages. After achieving an overwhelming advantage, Polecat defers to Stockfish engine recommendations to finish the game.
+Polecat is a chess engine, written in the Python programming language, that specializes in defeating human opponents by predicting their behavior and attempting to provoke mistakes and gain rapid advantages. After achieving an overwhelming advantage, Polecat defers to Stockfish engine recommendations to finish the game.
 
 ## Effectiveness
 
@@ -35,7 +35,7 @@ You can also edit config.py to change the number of trials run by trial.py, the 
 
 ## Use of External Resources
 
-This project uses resources from the [Maia Chess](https://maiachess.com/) project to model human behavior as well as technology from the [Leela Chess Zero](https://lczero.org/) engine to evaluate neural networks trained by Maia and by Leela Chess Zero project contributors. This project also includes a distribution of the [Stockfish](https://stockfishchess.org/) engine for move recommendation and as a basis of comparison in testing Polecat's effectiveness.
+This project uses resources from the [Maia Chess](https://maiachess.com/) project to model human behavior, as well as technology from the [Leela Chess Zero](https://lczero.org/) engine to evaluate neural networks trained by Maia and by Leela Chess Zero project contributors. This project also includes a distribution of the [Stockfish](https://stockfishchess.org/) engine for move recommendation and as a basis of comparison in testing Polecat's effectiveness.
 
 ## Technical Implementation
 
